@@ -35,6 +35,7 @@ public class Slurp {
 		}
 		System.out.println("finalizado com sucesso!");
 		System.exit(0);
+		
 		} catch (FileNotFoundException e) {
 			System.err.println("Arquivo não Encontrado!\n"+ e);
 		} catch (IOException e) {
